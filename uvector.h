@@ -24,6 +24,6 @@ namespace uvector
 		friend std::ostream &operator<<(std::ostream &stream, const Vector &_vector);
 	private:
 		iterator	vec;
-		int			size;
+		int		size;
 	};
 }
